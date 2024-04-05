@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    transition: all 2s linear;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: gray;
+    background-image: url("../assets/images/meteorGrey_med2.png");
+    font-family: btnFont;
+}
+
+#dialogue{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    display: grid;
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: inset 0 0 20px gray;
+
+}
+
+#game{
+    display: flex;
+    width: 100vw;
+    visibility: hidden;
+}
+
+#container{
+    display: flex;
+    width: 100%;
+    height: 40vh;
+    flex-basis: auto;
+    text-align: center;
+    background-color: beige;
+    border-bottom: 20px ridge white;
+}
+
+img{
+    width: 50%;
+    border: 10px ridge black;
+}
+
+p{
+    display: grid;
+    text-transform: capitalize;
+    text-shadow: 0 0 3px gainsboro;
+    vertical-align: middle;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+}
+
+#that{
+    padding: 0;
+    margin-top: 0;
+}
+
+audio{
+    display: none;
+}
+

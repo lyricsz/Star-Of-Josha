@@ -1,0 +1,37 @@
+
+let avatar = [
+    "assets/images/narrator.png",
+    "assets/images/buttonBlue.png",
+    "assets/images/buttonRed.png",
+    "assets/images/buttonYellow.png",
+    "assets/images/buttonGreen.png",
+    "assets/images/nothing.png",
+    "assets/images/star1.png"
+]
+
+let discussion = [
+    "(Star of Josha was on his way to Earth, but was the journey really pleasant?)",
+    "<b>Star of Josha</b> Hold on tight! Be careful... ",
+    "Be careful of illusions... If I'm being careful... ",
+    "This must've been the challenge gaven to us by the <b>Heavenly King</b>...",
+    "Hold on tight and prove our worthy of the task, <b>Star of Josha</b>",
+    "(Illusions? Is their guiding failing? Who knows? )"
+]
+
+let imagesN = [
+    avatar[0],
+    avatar[1],
+    avatar[3],
+    avatar[3],
+    avatar[1],
+    avatar[0],
+]
+
+let gods = [
+    "Narrator",
+    "Immortal Blue Light",
+    "Immortal Yellow Light",
+    "Immortal Yellow Light",
+    "Immortal Blue Light",
+    "Narrator"
+]

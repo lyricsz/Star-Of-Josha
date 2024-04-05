@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    image-rendering: pixelated;
+    transition: all 3s linear;
+}
+
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    background-color: gray;
+}
+
+canvas{
+    object-fit:contain;
+    width: 100%;
+    border-radius: 20px;
+    border: 20px ridge black;
+    background: hsla(0, 0, 0, 0.5);
+    background-image: url("../../assets/images/background.png");
+    background-size: 32px;
+}
+
+.hide{
+    display: none;
+}
+
+#boxGameOver, #boxGameWon{
+    display: none;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+    background-color: darkkhaki;
+    transition: all 3s linear;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px bisque;
+}
+
+button{
+    border: none;
+    border-radius: 20px;
+    outline: 1px solid gold;
+    background: rgba(255, 215, 0, 0.1) !important;
+}
+
+.replay{
+    position: absolute;
+    left: 2%;
+    width: 30%;
+    height: 20%;
+    bottom: 10%;
+}
+
+.menu{
+    position: absolute;
+    left: 35%;
+    width: 30%;
+    height: 20%;
+    bottom: 10%;
+}
+
+.next{
+    position: absolute;
+    left: 68%;
+    width: 30%;
+    height: 20%;
+    bottom: 10%;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Star Of Josha</title>
+
+    <link rel="stylesheet" href="allCss/style.css" type="text/css"/>
+</head>
+<body>
+    <h1>Star Of Josha</h1>
+    <hr />
+    <button onclick="play()">Play</button>
+    <button onclick="highscore()">Highscore</button>
+    <button onclick="about()">About</button>
+    <button onclick="exit()">Exit</button>
+
+    <script>
+        function play(){
+            window.location = "play.html";
+        }
+
+        function highscore(){
+            window.location = "highscore.html";
+        }
+
+        function about(){
+            window.location = "about.html";
+        }
+
+        function exit(){
+            app.Exit();
+        }
+    </script>
+</body>
+</html>

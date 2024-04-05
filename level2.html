@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level 2 - Star Of Josha</title>
+    <link rel="stylesheet" href="allCss/style.css" />
+    <link rel="stylesheet" href="allCss/game.css" />
+    <link rel="stylesheet" href="allCss/css/style.css" />
+</head>
+<body>
+
+    <div id="dialogue">
+        <div id="container">
+            <img width="50px" height="auto" id="image"/>
+            <p id="speaker"></p>
+        </div>
+        <p id="that"></p>
+
+        <script src="script2.js"></script>
+    </div>
+
+    <audio src="assets/sound/click1.ogg"></audio>
+    <audio src="assets/sound/click2.ogg"></audio>
+    <audio src="assets/sound/bg.ogg"></audio>
+    <audio src="assets/sound/jump.ogg"></audio>
+    <audio src="assets/sound/death.ogg"></audio>
+    <audio src="assets/sound/won.ogg"></audio>
+    
+    <div id="game">
+        <canvas id="myCanvas" width="800" height="600"></canvas>
+
+
+        <div id="boxGameOver">
+            Game Over!!! You Failed to Protect the Earth!
+            <button class="replay" onclick="replay()">Replay</button> 
+            <button class="menu" onclick="menu()">Menu</button>
+            <button class="next" onclick="next()">Next</button>
+        </div>
+    
+        <div id="boxGameWon">
+            Congratulations!!! Level Completed! 
+            <button class="replay" onclick="replay()">Replay</button> 
+            <button class="menu" onclick="menu()">Menu</button>
+            <button class="next" onclick="next()">Next</button>
+        </div>
+    
+    
+        <img src="assets/images/buttonBlue.png" class="hide"/>
+        <img src="assets/images/buttonGreen.png" class="hide"/>
+        <img src="assets/images/buttonRed.png" class="hide"/>
+        <img src="assets/images/buttonYellow.png" class="hide"/>
+        <img src="assets/images/blue.png" class="hide"/>
+    
+        <script src="secondjs/particle.js"></script>
+        <script src="secondjs/player.js"></script>
+        <script src="secondjs/platform.js"></script>
+        <script src="secondjs/app.js"></script>
+    </div>
+</body>
+</html>
